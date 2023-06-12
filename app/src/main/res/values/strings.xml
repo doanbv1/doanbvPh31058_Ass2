@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">doanbvPh31058_Ass2</string>
+
+    <string name="txt_chaomungban">Chao Mung Ban</string>
+    <string name="txt_dangkytaikhoan">Dang Ky Tai Khoan</string>
+    <string name="txt_nhapusername">Nhap username</string>
+    <string name="txt_nhappassword">Nhap Password</string>
+    <string name="txt_retypepassword">Nhap lai password</string>
+    <string name="txt_chaomungbandaquaytrolai">Chao Mung Ban Da Quay Tro Lai</string>
+    <string name="txt_vuilongdangnhapdetieptuc">Vui Long Dang Nhap De Tiep Tuc</string>
+    <string name="txt_ghinhotaikhoan">Ghi nho tai khoan</string>
+</resources>

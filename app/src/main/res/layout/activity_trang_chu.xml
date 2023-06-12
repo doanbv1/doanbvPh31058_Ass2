@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Trang_chu"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Quản Lý Nhân Sự"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="#14D31C"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#DC4E21"
+        android:gravity="center"
+        android:text="fpoly software company"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/tv_phongBan"
+            android:layout_marginRight="20dp"
+            android:layout_width="50dp"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:drawableTop="@mipmap/house"
+            android:drawableTint="#ff0000"
+            android:gravity="center"
+            android:text="Phòng Ban"
+            android:textStyle="bold"
+            android:textColor="#ff0000"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/tv_nhanVien"
+            android:gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:drawableTop="@mipmap/people"
+            android:drawableTint="#2196F3"
+            android:text="Nhân Viên"
+            android:textStyle="bold"
+            android:textColor="#1379CA"
+            android:textSize="25dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_out"
+        android:layout_marginTop="30dp"
+        android:layout_width="110dp"
+        android:layout_height="90dp"
+        android:background="@drawable/border"
+        android:drawableTop="@mipmap/out"
+        android:gravity="center"
+        android:text="Thoát"
+        android:textSize="30dp"
+        android:textColor="@color/black"/>
+</LinearLayout>
